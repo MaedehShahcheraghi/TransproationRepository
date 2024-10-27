@@ -1,0 +1,17 @@
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Persistence.deps.json
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Persistence.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Persistence.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Applciation.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Applciation.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\bin\Debug\net8.0\TransportationSystem.Domain.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.csproj.AssemblyReference.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.AssemblyInfoInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.AssemblyInfo.cs
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\Transpor.C7BBFE4E.Up2Date
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\refint\TransportationSystem.Persistence.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\TransportationSystem.Persistence.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Persistence\obj\Debug\net8.0\ref\TransportationSystem.Persistence.dll

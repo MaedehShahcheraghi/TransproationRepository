@@ -1,0 +1,15 @@
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\bin\Debug\net8.0\TransportationSystem.Applciation.deps.json
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\bin\Debug\net8.0\TransportationSystem.Applciation.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\bin\Debug\net8.0\TransportationSystem.Applciation.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\bin\Debug\net8.0\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\bin\Debug\net8.0\TransportationSystem.Domain.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.csproj.AssemblyReference.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.AssemblyInfoInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.AssemblyInfo.cs
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.csproj.CoreCompileInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\Transpor.788A9EBD.Up2Date
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\refint\TransportationSystem.Applciation.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\TransportationSystem.Applciation.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Applciation\obj\Debug\net8.0\ref\TransportationSystem.Applciation.dll

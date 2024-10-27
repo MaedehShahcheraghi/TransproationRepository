@@ -1,0 +1,11 @@
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\bin\Debug\net8.0\TransportationSystem.Domain.deps.json
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\bin\Debug\net8.0\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\bin\Debug\net8.0\TransportationSystem.Domain.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.AssemblyInfo.cs
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\refint\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\TransportationSystem.Domain.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Domain\obj\Debug\net8.0\ref\TransportationSystem.Domain.dll

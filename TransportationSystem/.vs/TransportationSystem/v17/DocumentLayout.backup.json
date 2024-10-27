@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|c:\\users\\maedeh\\source\\repos\\transportationsystem\\transportationsystem.ui\\sevices\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|solutionrelative:transportationsystem.ui\\sevices\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|c:\\users\\maedeh\\source\\repos\\transportationsystem\\transportationsystem.ui\\sevices\\accountservice\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|solutionrelative:transportationsystem.ui\\sevices\\accountservice\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|c:\\users\\maedeh\\source\\repos\\transportationsystem\\transportationsystem.ui\\contracts\\userservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|solutionrelative:transportationsystem.ui\\contracts\\userservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|c:\\users\\maedeh\\source\\repos\\transportationsystem\\transportationsystem.ui\\contracts\\companyservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB36ABF-2A6A-4D82-A93A-3F6B9447D662}|TransportationSystem.UI\\TransportationSystem.UI.csproj|solutionrelative:transportationsystem.ui\\contracts\\companyservices\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Sevices\\AccountService\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "TransportationSystem.UI\\Sevices\\AccountService\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Sevices\\AccountService\\AuthenticationService.cs",
+              "RelativeToolTip": "TransportationSystem.UI\\Sevices\\AccountService\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:28:43.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Sevices\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "TransportationSystem.UI\\Sevices\\UserServices\\UserService.cs",
+              "ToolTip": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Sevices\\UserServices\\UserService.cs",
+              "RelativeToolTip": "TransportationSystem.UI\\Sevices\\UserServices\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:28:29.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Contracts\\CompanyServices\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "TransportationSystem.UI\\Contracts\\CompanyServices\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Contracts\\CompanyServices\\ICompanyService.cs",
+              "RelativeToolTip": "TransportationSystem.UI\\Contracts\\CompanyServices\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:19:29.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Contracts\\UserServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "TransportationSystem.UI\\Contracts\\UserServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\maedeh\\source\\repos\\TransportationSystem\\TransportationSystem.UI\\Contracts\\UserServices\\IUserService.cs",
+              "RelativeToolTip": "TransportationSystem.UI\\Contracts\\UserServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:19:09.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Infrastructure.deps.json
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Infrastructure.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Infrastructure.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Applciation.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Domain.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Applciation.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\bin\Debug\net8.0\TransportationSystem.Domain.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\Transpor.5D579433.Up2Date
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\refint\TransportationSystem.Infrastructure.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\TransportationSystem.Infrastructure.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Infrastructure\obj\Debug\net8.0\ref\TransportationSystem.Infrastructure.dll

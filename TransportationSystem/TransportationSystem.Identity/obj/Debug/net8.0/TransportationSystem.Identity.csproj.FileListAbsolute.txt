@@ -1,0 +1,11 @@
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\bin\Debug\net8.0\TransportationSystem.Identity.deps.json
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\bin\Debug\net8.0\TransportationSystem.Identity.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\bin\Debug\net8.0\TransportationSystem.Identity.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.AssemblyInfoInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.AssemblyInfo.cs
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.csproj.CoreCompileInputs.cache
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\refint\TransportationSystem.Identity.dll
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\TransportationSystem.Identity.pdb
+C:\Users\maedeh\source\repos\TransportationSystem\TransportationSystem.Identity\obj\Debug\net8.0\ref\TransportationSystem.Identity.dll

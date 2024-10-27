@@ -1,0 +1,419 @@
+[
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "Add_User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUser",
+        "Type": "TransportationSystem.Applciation.DTOs.UserDtos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "AddUserRole",
+    "RelativePath": "Add_User_Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleDto",
+        "Type": "TransportationSystem.Applciation.DTOs.UserDtos.UserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "GetAllCity",
+    "RelativePath": "Cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "GetCity",
+    "RelativePath": "Cities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "GetCityByCityCode",
+    "RelativePath": "Cities/City/{cityCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityCode",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "CreateCity",
+    "RelativePath": "Cities/CreateCity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCity",
+        "Type": "TransportationSystem.Applciation.DTOs.CityDTOS.CreateCityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "EditCity",
+    "RelativePath": "Cities/EditCity",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editCity",
+        "Type": "TransportationSystem.Applciation.DTOs.CityDTOS.EditCityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CityController",
+    "Method": "RemoveCity",
+    "RelativePath": "Cities/RemoveCity/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "CreateCompany",
+    "RelativePath": "Company/CreateCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCompany",
+        "Type": "TransportationSystem.Applciation.DTOs.CompanyDtos.CreateCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.Responses.BaseResponse.BaseCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "CreateUserCompany",
+    "RelativePath": "Company/CreateUserCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCompany",
+        "Type": "TransportationSystem.Applciation.DTOs.CompanyDtos.UserCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.Responses.BaseResponse.BaseCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "EditCompany",
+    "RelativePath": "Company/EditCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editCompany",
+        "Type": "TransportationSystem.Applciation.DTOs.CompanyDtos.EditCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.Responses.BaseResponse.BaseCommandResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "GetAllCompany",
+    "RelativePath": "Company/GetAllCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[TransportationSystem.Applciation.DTOs.CompanyDtos.CompanyDto, TransportationSystem.Applciation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "GetAllUserCompanies",
+    "RelativePath": "Company/GetAllUserCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[TransportationSystem.Applciation.DTOs.CompanyDtos.UserCompanyDto, TransportationSystem.Applciation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "GetAllUserRole",
+    "RelativePath": "Company/GetAllUsersForCompany/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.DTOs.CompanyDtos.UserCompanyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.CompanyController",
+    "Method": "GetCompanyById",
+    "RelativePath": "Company/GetCompany/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.DTOs.CompanyDtos.CompanyDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "EditUser",
+    "RelativePath": "Edit_User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editUser",
+        "Type": "TransportationSystem.Applciation.DTOs.UserDtos.EditUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "Get_All_User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "Get_User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "GetAllUserRole",
+    "RelativePath": "GetAllUserRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.UserController",
+    "Method": "GetAllUserRole",
+    "RelativePath": "GetAllUserRole/{user_Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.AccountController",
+    "Method": "LoginUser",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authRequest",
+        "Type": "TransportationSystem.Applciation.Models.User_Model.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.Responses.UserResponse.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TransportationSystem.Api.Controllers.AccountController",
+    "Method": "RegisterUser",
+    "RelativePath": "Register/{role}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportationSystem.Applciation.Models.User_Model.RegisterationRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TransportationSystem.Applciation.Responses.UserResponse.RegisterationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

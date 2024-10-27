@@ -1,0 +1,194 @@
+﻿@using TransportationSystem.UI.ViewModels.Account
+@model RegistrationView
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+
+    <!-- Icons font CSS-->
+    <link href="/lib/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="/lib/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="/lib/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/lib/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body dir="rtl">
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">فرم ثبت نام</h2>
+                 
+                    <form method="POST" asp-action="Register" asp-controller="Account">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">نام</label>
+                                    <input class="input--style-4" type="text" asp-for="registerViewModel.FirstName">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">نام خانوادگی</label>
+                                    <input class="input--style-4" type="text" asp-for="registerViewModel.LastName">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">ایمیل</label>
+                                    <input class="input--style-4" type="email" asp-for="registerViewModel.Email">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">شماره تلفن</label>
+                                    <input class="input--style-4" type="text" asp-for="registerViewModel.Phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">پسورد</label>
+                                    <input class="input--style-4" type="password" asp-for="registerViewModel.Password">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">تکرار پسورد</label>
+                                    <input class="input--style-4" type="password" asp-for="registerViewModel.RePassword">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-space" id="nationalCodeField">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">نام کاربری</label>
+                                    <input class="input--style-4" type="text" asp-for="registerViewModel.UserName">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">کد ملی</label>
+                                    <input class="input--style-4" type="text" asp-for="registerViewModel.National_Code">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="label">ثبت به عنوان</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="RegisterType" id="RegisterType" onchange="toggleFields()">
+                                    <option value="User">کاربر حقیقی</option>
+                                    <option value="Company">شرکت حمل ونقل</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+
+                        <div id="companyFields" style="display: none;">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">نام شرکت</label>
+                                        <input class="input--style-4" type="text" asp-for="CompanyViewModel.Company_Name">
+
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">شماره ثبت شرکت</label>
+                                        <input class="input--style-4" type="text" asp-for="CompanyViewModel.RegisterationNumber">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <label class="label">شماره شرکت</label>
+                                        <input class="input--style-4" type="text" asp-for="CompanyViewModel.Company_Code">
+
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <label class="label">آدرس شرکت</label>
+                                        <input class="input--style-4" type="text" asp-for="CompanyViewModel.Address">
+
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">ثبت نام</button>
+                        </div>
+                    </form>
+
+                  
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script>
+        
+                      function toggleFields() {
+                          var registerType = document.getElementById("RegisterType").value;
+                          var companyFields = document.getElementById("companyFields");
+                          var nationalCodeField = document.getElementById("nationalCodeField");
+
+                          if (registerType === "Company") {
+                              companyFields.style.display = "block";
+                              nationalCodeField.style.display = "none"; }
+                           else{
+                              companyFields.style.display = "none";
+                              nationalCodeField.style.display = "block";
+                         }
+                      
+                      }
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <!-- Vendor JS-->
+
+    <script src="~/lib/vendor/select2/select2.min.js"></script>
+    <script src="~/lib/vendor/datepicker/moment.min.js"></script>
+    <script src="~/lib/vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+
+    <script src="~/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
